@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> GreenEarth - Home </title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+</head>
+<body>
+ <header> 
+   
+    <nav class="nav-links">
+        <a href="index.html"> Home</a>
+        <a href="./pages/AboutUs.html"> About</a>
+        <a href="./pages/Contact.html"> Contact</a>
+        <a href="./pages/Enquiries.html"> Enquiries</a>
+        <a href="./pages/Services.html"> Services</a>
+    </nav>
+    <!--Add hamburger navigation-->
+    <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+ </header> 
+    <main>
+  <h1> GreenEarth Inc</h1>
+  <div class="responsive-text">
+    <p>Building A Sustainable Future Together</p>
+        <!--introduction-->
+        <h2>Welcome To GreenEarth</h2>
+        <p>At GreenEarth, we are committed to promoting eco-friendly solutions that protect our planet.
+            From renewable energy projects to sustainable community initiatives, we work to create a greener tomorrow.
+            We strive on keeping the environment and the world at large for cleaner a greener productive environment.
+            Raising common issues like forest fires and uncertified tree cutting.
+        </p>
+        </div>
+        <!--Image section-->
+        <section>
+             <img src="Assets/logo-green.avif" alt="logo-green" width ="100%" height="100%">
+        </section>
+    </main>
+
+  
+
+ <footer>
+    <p> The webiste (www.GreenEarthInc.com) is copytight protected by laws of the State of South Africa and other African countries that represented in the website by the International Treaties. No part of this webiste (www.GreenEarthInc.com)can be stored, reproduced, used or trasnmitted in any form of mechanical use but not limiting to storage 
+        therefore by email or any means. no other form of communication or media witll not be accepted without written and express permission of GreenEarthInc.
+    </p>
+    <div class=" socials">
+        <a href="https://facebook.com" target="_blank"><i class="=fab fa-facenook-f"></i></a>
+         <a href="https://instagram.com" target="_blank"><i class="=fab fa-instagram"></i></a>
+    </div>
+    <p id="myParagraph">&copy;2025 GreenEarth Incoportated.All Rights Reserved</p>
+ </footer>
+ <script>
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+
+    hamburger.addEventListener('click', () =>{
+    navLinks.classList.toggle('activate');
+    hamburger.classList.toggle('activate'); //animate hamburger    
+    });
+ </script>
+</body>
+</html>

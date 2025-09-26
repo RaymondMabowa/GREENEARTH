@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> GreenEarth - Enquiries </title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+</head>
+<body>
+    <header> 
+        <h1>GreenEarth</h1>
+        <p>Enquiries</p>
+           </header> 
+        <img src="../Assets/GreenService.jfif" alt="logo-green" width ="100%" height="100%">
+        <nav>
+            <a href="../index.html"> Home</a>
+            <a href="AboutUs.html"> About</a>
+            <a href="Contact.html"> Contact</a>
+            <a href="Enquiries.html"> Enquiries</a>
+            <a href="Services.html"> Services</a>
+        </nav>
+         <!--Add hamburger navigation-->
+    <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+<!--for realted enquiries-->
+    <main>
+    <h2>Submit an Enquiry</h2>
+    <form>
+      <label for="name">Full Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+      <button type="submit">Send Enquiry</button>
+    </form>
+  </main>
+
+  <img src="../Assets/download (1).webp" alt="logo" width="100%" height="100%">
+  <img src="../Assets/download (2).webp" alt="logo" width="100%" height="100%">
+  <img src="../Assets/download(3).webp" alt="logo" width="100%" height="100%">
+
+     <footer>
+         <p> The webiste (www.GreenEarthInc.com) is copytight protected by laws of the State of South Africa and other
+        African countries that represented in the website by the International Treaties. No part of this webiste (www.GreenEarthInc.com)
+        can be stored, reproduced, used or trasnmitted in any form of mechanical use but not limiting to storage 
+        therefore by email or any means. no other form of communication or media witll not be accepted without written and express permission of GreenEarthInc.
+    </p>
+    <div class=" socials">
+        <a href="https://facebook.com" target="_blank"><i class="=fab fa-facenook-f"></i></a>
+         <a href="https://instagram.com" target="_blank"><i class="=fab fa-instagram"></i></a>
+    </div>
+    <p id="myParagraph">&copy;2025 GreenEarth Incoportated.All Rights Reserved</p>
+ </footer>
+ <script>
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+
+    hamburger.addEventListener('click', () =>{
+    navLinks.classList.toggle('activate');
+    hamburger.classList.toggle('activate'); //animate hamburger    
+    });
+ </script>
+     </footer>
+</body>
+</ht
